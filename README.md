@@ -13,14 +13,21 @@ Finally you need to run the tool and connect the server to the agent .
 # Step-by-step guide 
 
 first we need to edit the Peer.conf file and add our service details.
+
 <img src=/images/1.png>
+
 then we can run our PeerManager and it will load the configuration file .
+
 <img src=/images/2.png>
+
 after successfully loading we can cocnnect our agent -the agent can be any service bridge or packet forwarder- 
+
 <img src=/images/3.png>
 <img src=/images/4.png>
-we have successfully connected the backend , 
-now we can interact with PeerManager and we can we get responses from the connected backend 
+we have successfully connected the backend.
+
+now we can interact with PeerManager and we can we get responses from the connected backend .
+
 <img src=/images/5.png>
 
 
