@@ -1,6 +1,6 @@
 # Abstract 
 this tool is used to improve connectivity over non-reachable devices that are constrained by isps , 
-the idea is to make a brdging server that would listen for both the client and the server simultanously and bridge the packets betwen them .
+the idea is to make a bridging server that would listen for both the client and the server simultaneously and bridge the packets between them .
 
 # Diagram 
 <img src=/images/Diagram.png>
@@ -9,6 +9,11 @@ the idea is to make a brdging server that would listen for both the client and t
 First you need any free public hosting server to run the tool on .
 Then you need to configure the Peer.conf file and add the IP , server port and the client port .
 Finally you need to run the tool and connect the server to the agent . 
+
+# Prerequisites
+-GCC for compiling the source code .
+-Reachable Host.
+
 
 # Step-by-step guide 
 
@@ -29,6 +34,14 @@ we have successfully connected the backend.
 now we can interact with PeerManager and we can we get responses from the connected backend .
 
 <img src=/images/5.png>
+
+
+# Future 
+Currently the software still requires a third party that is reachable by both sides to establish the connection , which reduce the overall effectiveness of it .
+the software now only allows port mappings , virtual hosts maybe added in the future for web services.
+Server Authentication can be a good implementation as ports are exposed publicly .
+TLS/Encryption can also be added.
+
 
 
 
