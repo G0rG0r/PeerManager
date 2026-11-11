@@ -7,4 +7,5 @@ First you need any free public hosting server to run the tool on .
 Then you need to configure the Peer.conf file and add the IP , server port and the client port .
 Finally you need to run the tool and connect the server to the agent . 
 
-
+# Examples : 
+<img src=Diagram.png>
