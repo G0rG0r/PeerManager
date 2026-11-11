@@ -11,8 +11,8 @@ Then you need to configure the Peer.conf file and add the IP , server port and t
 Finally you need to run the tool and connect the server to the agent . 
 
 # Prerequisites
--GCC for compiling the source code .
--Reachable Host.
+GCC for compiling the source code.
+Reachable Host.
 
 
 # Step-by-step guide 
