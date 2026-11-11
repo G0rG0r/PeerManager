@@ -4,7 +4,7 @@ the idea is to make a brdging server that would listen for both the client and t
 
 # How to use 
 First you need any free public hosting server to run the tool on .
-Then you need to configure the Peer.conf file , and add the IP , server port and the client port .
+Then you need to configure the Peer.conf file and add the IP , server port and the client port .
 Finally you need to run the tool and connect the server to the agent . 
 
 
